@@ -1,0 +1,24 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "NDN",
+  "DXD",
+  "NDN"
+ ],
+ "key": {
+  "N": {
+   "item": "minecraft:netherite_ingot"
+  },
+  "D": {
+   "item": "minecraft:diamond_block"
+  },
+  "X": {
+   "item": "cyberparts:arm_l_mk2"
+  }
+ },
+ "result": {
+  "id": "cyberparts:arm_l_mk3",
+  "count": 1
+ }
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "cyberparts",
+  "version": "${version}",
+  "name": "Cyber Parts",
+  "description": "Troque partes do corpo por pecas roboticas na Bancada Cibernetica. Mais atributos, mas a cirurgia dói.",
+  "authors": ["Voce"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.cyberparts.CyberParts"],
+    "client": ["com.cyberparts.CyberPartsClient"]
+  },
+  "mixins": [{"config": "cyberparts.mixins.json", "environment": "client"}],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

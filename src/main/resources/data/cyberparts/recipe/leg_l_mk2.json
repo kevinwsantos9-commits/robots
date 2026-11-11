@@ -1,0 +1,27 @@
+{
+ "type": "minecraft:crafting_shaped",
+ "category": "misc",
+ "pattern": [
+  "GRG",
+  "DXD",
+  "GRG"
+ ],
+ "key": {
+  "G": {
+   "item": "minecraft:gold_ingot"
+  },
+  "R": {
+   "item": "minecraft:redstone_block"
+  },
+  "D": {
+   "item": "minecraft:diamond"
+  },
+  "X": {
+   "item": "cyberparts:leg_l_mk1"
+  }
+ },
+ "result": {
+  "id": "cyberparts:leg_l_mk2",
+  "count": 1
+ }
+}

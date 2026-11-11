@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["III", "RCR", "BBB"],
+  "key": {
+    "I": {"item": "minecraft:iron_ingot"},
+    "R": {"item": "minecraft:redstone"},
+    "C": {"item": "minecraft:crafting_table"},
+    "B": {"item": "minecraft:iron_block"}
+  },
+  "result": {"id": "cyberparts:bench", "count": 1}
+}
